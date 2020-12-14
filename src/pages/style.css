@@ -14,12 +14,16 @@
 
 .main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
     
 }
-/* 
+
 .input-main{
     background-color:red;
-} */
+    display: flex;
+    flex-direction: column;
+} 
 
 .text{
     background-color: blue;
@@ -30,5 +34,17 @@
 
 .text:hover{
     background-color:silver;
+    
+}
+
+.Butt{
+    background-color: slategrey;
+    
+
+}
+
+.head{
+    background-color: teal;
+   
     
 }

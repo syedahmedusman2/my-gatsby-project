@@ -11,3 +11,24 @@
     margin: 0 auto;
     width: 700px;
 }
+
+.main {
+    text-align: center;
+    
+}
+/* 
+.input-main{
+    background-color:red;
+} */
+
+.text{
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+.text:hover{
+    background-color:silver;
+    
+}

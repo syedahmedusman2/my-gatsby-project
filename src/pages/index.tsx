@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <div className="main">
       <div className="head">
-        <h3>TODO APP</h3>
+        <h3>TASKER</h3>
       </div>
       <div className="input-main">
         <div className="input-div">
@@ -70,9 +70,10 @@ export default function Home() {
             onChange={e => setTodo(e.currentTarget.value)}
             required
             value={todo}
+            className="text"
           />
-          <button type="submit" onClick={handleSubmit}>
-            +
+          <button type="submit" onClick={handleSubmit} className="Butt">
+            ADD TASK
           </button>
         </div>
       </div>

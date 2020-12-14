@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         ) : (
           <div className="no-task">
-            <h4>No Task for today</h4>
+            <h4 style={{color:'red'}}>NO TASKS TILL NOW</h4>
           </div>
         )}
       </div>

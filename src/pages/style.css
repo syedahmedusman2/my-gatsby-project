@@ -20,16 +20,17 @@
 }
 
 .input-main{
-    background-color:red;
+    /* background-color:red; */
     display: flex;
     flex-direction: column;
 } 
 
 .text{
-    background-color: blue;
+    /* background-color: blue; */
     width: 200px;
     height: 30px;
-    color: white;
+    /* color: white; */
+    
 }
 
 .text:hover{
@@ -38,13 +39,23 @@
 }
 
 .Butt{
-    background-color: slategrey;
+    background-color: navy;
+    height: 36px;
+    color: white;
+    border: none;
+    border-radius: 3px;
     
 
 }
 
+.Butt:Hover{
+    background-color: silver;
+}
+
 .head{
-    background-color: teal;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
    
     
 }

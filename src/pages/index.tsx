@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import { useMutation, useQuery } from "@apollo/client"
-import gql from "graphql-tag"
+import { gql, useMutation, useQuery } from "@apollo/client"
+// import gql from "graphql-tag"
 import "./style.css"
 import CircularProgress from "@material-ui/core/CircularProgress"
 
